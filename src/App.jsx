@@ -13,7 +13,6 @@ const App = () => {
 
   return (
     <div>
-      <Counter/>
       <Calculator/>
     </div>
   )
