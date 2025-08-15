@@ -1,6 +1,5 @@
 import './App.css'
-import  Counter  from "./projects/Counter-App/Counter"
-import Calculator from "./projects/Calculator/Calculator"
+import {Todo} from "./projects/Todo_list/Todo.jsx";
 
 // This is the root component of the app =>
 // What it does?
@@ -13,7 +12,7 @@ const App = () => {
 
   return (
     <div>
-      <Calculator/>
+      <Todo/>
     </div>
   )
 }
