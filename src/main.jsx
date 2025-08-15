@@ -8,6 +8,6 @@ import { Counter } from './projects/Counter-App/counter.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
-    <Counter />
-  </>,
+    <App />
+  </>
 )

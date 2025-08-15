@@ -1,4 +1,5 @@
 import './App.css'
+import Calculator from './projects/Calculator/Calculator'
 
 // This is the root component of the app =>
 // What it does?
@@ -11,7 +12,7 @@ function App(){
 
   return (
     <>
-      <App/>
+      <Calculator/>
     </>
   )
 }
