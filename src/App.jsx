@@ -1,5 +1,6 @@
 import './App.css'
-import Calculator from './projects/Calculator/Calculator'
+import  Counter  from "./projects/Counter-App/Counter"
+import Calculator from "./projects/Calculator/Calculator"
 
 // This is the root component of the app =>
 // What it does?
@@ -8,12 +9,13 @@ import Calculator from './projects/Calculator/Calculator'
 // All your projects/pages/components eventually get rendered inside App.
 
 
-function App(){
+const App = () => {
 
   return (
-    <>
+    <div>
+      <Counter/>
       <Calculator/>
-    </>
+    </div>
   )
 }
 

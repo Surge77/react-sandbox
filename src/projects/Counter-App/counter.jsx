@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 
 //The main component name should always start with a capital letter
-export const Counter = () => {
+const Counter = () => {
 
   const [count,setCount] = useState(0);
 
@@ -18,6 +18,8 @@ export const Counter = () => {
     
   )
 }
+
+export default Counter;
 
 
 // {} in JSX = “switch to JavaScript mode.”
