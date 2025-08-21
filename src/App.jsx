@@ -1,5 +1,5 @@
 import './App.css'
-import {Todo} from "./projects/Todo_list/Todo.jsx";
+import Count from "./projects/Character-count/Count.jsx";
 
 // This is the root component of the app =>
 // What it does?
@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <div>
-      <Todo/>
+      <Count/>
     </div>
   )
 }
