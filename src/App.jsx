@@ -1,5 +1,5 @@
 import './App.css'
-import Count from "./projects/Character-count/Count.jsx";
+import {ColorPicker} from "./projects/Color_picker/ColorPicker.jsx";
 
 // This is the root component of the app =>
 // What it does?
@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <div>
-      <Count/>
+      <ColorPicker/>
     </div>
   )
 }
