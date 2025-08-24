@@ -1,5 +1,6 @@
 import './App.css'
 import {ColorPicker} from "./projects/Color_picker/ColorPicker.jsx";
+import {Stopwatch} from "./projects/Stopwatch.jsx";
 
 // This is the root component of the app =>
 // What it does?
@@ -12,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-      <ColorPicker/>
+      <Stopwatch/>
     </div>
   )
 }
